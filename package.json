@@ -1,20 +1,18 @@
 {
-  "name": "node-hello",
+  "name": "node-hello-world-minimal",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
+  "description": "Node.js minimal example",
+  "author": "Steve Martinelli <s.martinelli@gmail.com>",
+  "main": "app.js",
+  "license": "Apache-2.0",
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnpapa/node-hello.git"
+    "type" : "git",
+    "url" : "https://github.com/IBM/node-hello-world-minimal.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/johnpapa/node-hello/issues"
+  "scripts": {
+    "start": "node app.js"
   },
-  "homepage": "https://github.com/johnpapa/node-hello#readme"
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
